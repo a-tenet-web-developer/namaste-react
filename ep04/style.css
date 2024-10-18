@@ -1,0 +1,86 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid sandybrown;
+  height: 100px;
+}
+.logo {
+  width: 200px;
+  padding-left: 20px;
+}
+.nav-items {
+  padding: 0px 20px;
+}
+.nav-items > ul {
+  display: flex;
+  list-style-type: none;
+  font-size: 24px;
+}
+/* .cusine{
+    display: flex;
+    justify-content: space-around;
+} */
+
+.nav-items > ul > li {
+  margin: 10px;
+  padding: 10px;
+}
+.search-container {
+  display: flex;
+  padding: 10px;
+  size: 100px;
+  justify-content: center;
+}
+.nav-items > ul > li:hover {
+  border: 1px solid sandybrown;
+}
+/* .search-container:hover{
+    border: 1px solid sandybrown;
+} */
+.res-logo {
+  width: 200px;
+  /* transition: box-shadow 0.3s ease; */
+  border: 1px solid transparent; /* Default state */
+  transition: border 0.3s ease;
+  max-width: 100%; /* Ensure the image fits within the card */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 10px;
+}
+.res-logo:hover {
+  border: 1px solid sandybrown;
+  box-shadow: 0 0 10px sandybrown; /* Optional glow effect */
+  cursor: pointer;
+  zoom: 150%;
+  /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); */
+  /* transform: scale(1.05); */
+  /* shape-margin: 10px; */
+}
+.res-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+  margin: 10px;
+}
+.res-card {
+  display: flex;
+  flex-direction: column;
+  padding-right: 60px;
+  padding-bottom: 30px;
+  margin: 10px;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  background-color: f0f0f0;
+  width: 243px;
+}
+
+.res-card:hover {
+  cursor: pointer;
+  border: 1px solid sandybrown;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  size: 20px;
+}
